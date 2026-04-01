@@ -14,4 +14,22 @@ document.writeln(
 
 //----------- ventana emergente-----------
 
-alert("bienvenido a mi página web 💻😊"); //mensaje emergente en la pagina web
+// alert("bienvenido a mi página web 💻😊"); //mensaje emergente en la pagina web
+
+// como declarar variables en js
+// var, let, const
+/*
+let:
+const:
+var:
+*/
+
+let anioActual;
+// inicializar una variable
+anioActual = 2024;
+
+document.writeln("<br>El año actual es: " + anioActual); // se puede concatenar texto con variables para mostrar el valor de la variable en la pagina web
+
+anioActual = 2026 // se puede reasignar un valor a una variable declarada con let
+
+document.writeln('<br> El año Actual es: ' + anioActual); // se muestra el nuevo valor de la variable en la pagina web
