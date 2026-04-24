@@ -19,7 +19,7 @@ document.writeln(
 // como declarar variables en js
 // var, let, const
 /*
-let:
+let: se le puede reasignar un valor a una variable declarada con let, pero no se puede redeclarar la variable con el mismo nombre dentro del mismo bloque de codigo.
 const:
 var:
 */
@@ -33,3 +33,7 @@ document.writeln("<br>El año actual es: " + anioActual); // se puede concatenar
 anioActual = 2026 // se puede reasignar un valor a una variable declarada con let
 
 document.writeln('<br> El año Actual es: ' + anioActual); // se muestra el nuevo valor de la variable en la pagina web
+
+const url = "http://127.0.0.1:5500/index.html";
+
+document.writeln('<br> La direccion de mi pagina es: ' + url);   
