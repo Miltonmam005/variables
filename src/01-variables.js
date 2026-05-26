@@ -30,20 +30,28 @@ anioActual = 2024;
 
 document.writeln("<br>El año actual es: " + anioActual); // se puede concatenar texto con variables para mostrar el valor de la variable en la pagina web
 
-anioActual = 2026 // se puede reasignar un valor a una variable declarada con let
+anioActual = 2026; // se puede reasignar un valor a una variable declarada con let
 
-document.writeln('<br> El año Actual es: ' + anioActual); // se muestra el nuevo valor de la variable en la pagina web
+document.writeln("<br> El año Actual es: " + anioActual); // se muestra el nuevo valor de la variable en la pagina web
 
 const url = "http://127.0.0.1:5500/index.html";
 
-document.writeln('<br> La direccion de mi pagina es: ' + url);   
+document.writeln("<br> La direccion de mi pagina es: " + url);
 
-// Ejercicio de suma de dos numeros 
+// Ejercicio de suma de dos numeros
 
 let num1, num2, resultado;
-
 num1 = 10;
 num2 = 25;
 resultado = num1 + num2;
 
-document.writeln('<br> El resultado de la suma es: ' + resultado);
+document.writeln("<br> El resultado de la suma es: " + resultado);
+
+console.log("El resultado de la suma es: " + resultado);
+
+// Ejercicio de resta de dos numeros con const
+
+const numero1 = 40;
+const numero2 = 10;
+
+document.writeln("<br> El resultado de la resta es: " + (numero1 - numero2)); // forma mas facil de hacer el ejercicio, es para hacer menos codigos
