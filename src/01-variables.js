@@ -51,7 +51,7 @@ console.log("El resultado de la suma es: " + resultado);
 
 // Ejercicio de resta de dos numeros con const
 
-const numero1 = 40;
-const numero2 = 10;
+const numero1 = parseInt(prompt("ingrese un  numero")),
+ numero2 = parseInt(prompt("ingrese un segundo numero"));
 
-document.writeln("<br> El resultado de la resta es: " + (numero1 - numero2)); // forma mas facil de hacer el ejercicio, es para hacer menos codigos
+document.writeln("<br> El resultado de la suma es: " + (numero1 + numero2)); // forma mas facil de hacer el ejercicio, es para hacer menos codigos
