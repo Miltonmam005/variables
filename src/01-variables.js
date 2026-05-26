@@ -37,3 +37,13 @@ document.writeln('<br> El año Actual es: ' + anioActual); // se muestra el nuev
 const url = "http://127.0.0.1:5500/index.html";
 
 document.writeln('<br> La direccion de mi pagina es: ' + url);   
+
+// Ejercicio de suma de dos numeros 
+
+let num1, num2, resultado;
+
+num1 = 10;
+num2 = 25;
+resultado = num1 + num2;
+
+document.writeln('<br> El resultado de la suma es: ' + resultado);
