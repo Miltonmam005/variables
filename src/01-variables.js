@@ -55,3 +55,51 @@ const numero1 = parseInt(prompt("ingrese un  numero")),
  numero2 = parseInt(prompt("ingrese un segundo numero"));
 
 document.writeln("<br> El resultado de la suma es: " + (numero1 + numero2)); // forma mas facil de hacer el ejercicio, es para hacer menos codigos
+
+// tipos de datos primitivos
+// strings
+const Nombre = 'Milton Mamani'
+const Producto = "Sapatillas"
+const Tareas = `Realizar el TP-1 de JS`
+
+// numbers
+const Edad = 30
+const Precio = 150.50 
+const Negativo = -20
+
+// booleanos
+const Encendido = true
+const Apagado = false
+
+// null: es un valor vacio
+let valorNulo = null
+// undefined : es un valor que no ha sido asignado a una variable, es decir, una variable que ha sido declarada pero no inicializada, o una variable que ha sido eliminada con el operador delete.
+
+let valorIndefinido;
+
+
+console.log(Nombre);
+console.log(Producto);
+console.log(Tareas);
+console.log(Edad);
+console.log(Precio);
+console.log(Negativo);
+console.log(Encendido);
+console.log(Apagado);
+console.log(valorNulo);
+console.log(valorIndefinido);
+
+//  tipos de datos referenciales
+
+// objetos con notacion literal      es una caja que guarda datos
+const persona = {
+    nombre: 'Milton',
+    apellido: 'Mamani',
+    edad: 28,
+    profesion: 'Desarrollador Web'
+}
+console.log(persona); 
+
+// arrays    es una lista de datos ordenada, se pueden guardar cualquier tipo de dato, incluso otros arrays u objetos
+const Productos = ['Sapatillas', 'Camisa', 'Pantalon', 'Gorra']
+console.log(Productos); 
