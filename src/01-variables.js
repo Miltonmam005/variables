@@ -91,7 +91,7 @@ console.log(valorIndefinido);
 
 //  tipos de datos referenciales
 
-// objetos con notacion literal      es una caja que guarda datos
+// objetos con notacion literal   --------- es una caja que guarda datos
 const persona = {
     nombre: 'Milton',
     apellido: 'Mamani',
