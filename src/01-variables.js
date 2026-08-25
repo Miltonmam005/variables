@@ -60,18 +60,19 @@ document.writeln("<br> El resultado de la suma es: " + (numero1 + numero2)); // 
 
 // tipos de datos primitivos
 // strings
-const Nombre = "Milton Mamani";
+const Nombre = 'Milton Mamani';
 const Producto = "Sapatillas";
-const Tareas = `Realizar el TP-1 de JS`;
+const Tareas = `Realizar el TP-1 de JS`; //templey literals `` `` atajo altGr + } ``
 
-// numbers
+
+// numbers numeros
 const Edad = 30;
 const Precio = 150.5;
 const Negativo = -20;
 
 // booleanos
 const Encendido = true;
-const Apagado = false;
+const Lavado = false;
 
 // null: es un valor vacio
 let valorNulo = null;
@@ -86,13 +87,14 @@ console.log(Edad);
 console.log(Precio);
 console.log(Negativo);
 console.log(Encendido);
-console.log(Apagado);
+console.log(Lavado);
 console.log(valorNulo);
 console.log(valorIndefinido);
 
 //  tipos de datos referenciales
 
-// objetos con notacion literal   --------- es una caja que guarda datos
+// objetos con notacion literal   --------- es una caja que guarda datos pero mas complejos 
+// los objetos usan {} como se ve abajo, y dentro de los objetos se pueden guardar diferentes tipos de datos, incluso otros objetos o arrays, y cada dato se guarda con una clave y un valor, la clave es el nombre del dato y el valor es el valor del dato, y se separan con dos puntos : y cada dato se separa con una coma , como se ve en el ejemplo de abajo.
 const persona = {
   nombre: "Milton",
   apellido: "Mamani",
@@ -102,5 +104,6 @@ const persona = {
 console.log(persona);
 
 // arrays    es una lista de datos ordenada, se pueden guardar cualquier tipo de dato, incluso otros arrays u objetos
+// los arrays usan [] como se ve abajo, y dentro de los arrays se pueden guardar diferentes tipos de datos, incluso otros arrays u objetos, y cada dato se guarda con un indice que empieza en 0, y se separan con una coma , como se ve en el ejemplo de abajo.
 const Productos = ["Sapatillas", "Camisa", "Pantalon", "Gorra"];
 console.log(Productos);
