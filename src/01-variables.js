@@ -49,34 +49,35 @@ document.writeln("<br> El resultado de la suma es: " + resultado);
 
 console.log("El resultado de la suma es: " + resultado);
 
-// Ejercicio de resta de dos numeros con const
-
+// Ejercicio de suma de dos numeros con const
+// parseInt: convierte un string a un numero entero
+// parseFloat: convierte un string a un numero decimal
+// prompt: muestra una ventana emergente para que el usuario ingrese un valor
 const numero1 = parseInt(prompt("ingrese un  numero")),
- numero2 = parseInt(prompt("ingrese un segundo numero"));
+  numero2 = parseInt(prompt("ingrese un segundo numero"));
 
 document.writeln("<br> El resultado de la suma es: " + (numero1 + numero2)); // forma mas facil de hacer el ejercicio, es para hacer menos codigos
 
 // tipos de datos primitivos
 // strings
-const Nombre = 'Milton Mamani'
-const Producto = "Sapatillas"
-const Tareas = `Realizar el TP-1 de JS`
+const Nombre = "Milton Mamani";
+const Producto = "Sapatillas";
+const Tareas = `Realizar el TP-1 de JS`;
 
 // numbers
-const Edad = 30
-const Precio = 150.50 
-const Negativo = -20
+const Edad = 30;
+const Precio = 150.5;
+const Negativo = -20;
 
 // booleanos
-const Encendido = true
-const Apagado = false
+const Encendido = true;
+const Apagado = false;
 
 // null: es un valor vacio
-let valorNulo = null
+let valorNulo = null;
 // undefined : es un valor que no ha sido asignado a una variable, es decir, una variable que ha sido declarada pero no inicializada, o una variable que ha sido eliminada con el operador delete.
 
 let valorIndefinido;
-
 
 console.log(Nombre);
 console.log(Producto);
@@ -93,13 +94,13 @@ console.log(valorIndefinido);
 
 // objetos con notacion literal   --------- es una caja que guarda datos
 const persona = {
-    nombre: 'Milton',
-    apellido: 'Mamani',
-    edad: 28,
-    profesion: 'Desarrollador Web'
-}
-console.log(persona); 
+  nombre: "Milton",
+  apellido: "Mamani",
+  edad: 28,
+  profesion: "Desarrollador Web",
+};
+console.log(persona);
 
 // arrays    es una lista de datos ordenada, se pueden guardar cualquier tipo de dato, incluso otros arrays u objetos
-const Productos = ['Sapatillas', 'Camisa', 'Pantalon', 'Gorra']
-console.log(Productos); 
+const Productos = ["Sapatillas", "Camisa", "Pantalon", "Gorra"];
+console.log(Productos);
